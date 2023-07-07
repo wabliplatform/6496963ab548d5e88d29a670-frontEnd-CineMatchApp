@@ -14,8 +14,10 @@
 
 import ApiClient from './ApiClient';
 import Deploys from './model/Deploys';
+import Movies from './model/Movies';
 import Users from './model/Users';
 import DeploysApi from './api/DeploysApi';
+import MoviesApi from './api/MoviesApi';
 import UsersApi from './api/UsersApi';
 
 
@@ -64,6 +66,12 @@ export {
     Deploys,
 
     /**
+     * The Movies model constructor.
+     * @property {module:model/Movies}
+     */
+    Movies,
+
+    /**
      * The Users model constructor.
      * @property {module:model/Users}
      */
@@ -74,6 +82,12 @@ export {
     * @property {module:api/DeploysApi}
     */
     DeploysApi,
+
+    /**
+    * The MoviesApi service constructor.
+    * @property {module:api/MoviesApi}
+    */
+    MoviesApi,
 
     /**
     * The UsersApi service constructor.
@@ -96,6 +110,12 @@ export default {
     Deploys,
 
     /**
+     * The Movies model constructor.
+     * @property {module:model/Movies}
+     */
+    Movies,
+
+    /**
      * The Users model constructor.
      * @property {module:model/Users}
      */
@@ -106,6 +126,12 @@ export default {
     * @property {module:api/DeploysApi}
     */
     DeploysApi,
+
+    /**
+    * The MoviesApi service constructor.
+    * @property {module:api/MoviesApi}
+    */
+    MoviesApi,
 
     /**
     * The UsersApi service constructor.
