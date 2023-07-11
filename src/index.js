@@ -15,9 +15,11 @@
 import ApiClient from './ApiClient';
 import Deploys from './model/Deploys';
 import Movies from './model/Movies';
+import Trendingmovies from './model/Trendingmovies';
 import Users from './model/Users';
 import DeploysApi from './api/DeploysApi';
 import MoviesApi from './api/MoviesApi';
+import TrendingmoviesApi from './api/TrendingmoviesApi';
 import UsersApi from './api/UsersApi';
 
 
@@ -72,6 +74,12 @@ export {
     Movies,
 
     /**
+     * The Trendingmovies model constructor.
+     * @property {module:model/Trendingmovies}
+     */
+    Trendingmovies,
+
+    /**
      * The Users model constructor.
      * @property {module:model/Users}
      */
@@ -88,6 +96,12 @@ export {
     * @property {module:api/MoviesApi}
     */
     MoviesApi,
+
+    /**
+    * The TrendingmoviesApi service constructor.
+    * @property {module:api/TrendingmoviesApi}
+    */
+    TrendingmoviesApi,
 
     /**
     * The UsersApi service constructor.
@@ -116,6 +130,12 @@ export default {
     Movies,
 
     /**
+     * The Trendingmovies model constructor.
+     * @property {module:model/Trendingmovies}
+     */
+    Trendingmovies,
+
+    /**
      * The Users model constructor.
      * @property {module:model/Users}
      */
@@ -132,6 +152,12 @@ export default {
     * @property {module:api/MoviesApi}
     */
     MoviesApi,
+
+    /**
+    * The TrendingmoviesApi service constructor.
+    * @property {module:api/TrendingmoviesApi}
+    */
+    TrendingmoviesApi,
 
     /**
     * The UsersApi service constructor.
