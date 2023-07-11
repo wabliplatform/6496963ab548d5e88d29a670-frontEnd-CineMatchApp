@@ -3,6 +3,9 @@
 .travis.yml
 README.md
 config.js
+docs/Allmovies.md
+docs/AllmoviesApi.json
+docs/AllmoviesApi.md
 docs/Deploys.md
 docs/DeploysApi.json
 docs/DeploysApi.md
@@ -18,10 +21,12 @@ index.js
 mocha.opts
 package.json
 src/ApiClient.js
+src/api/AllmoviesApi.js
 src/api/DeploysApi.js
 src/api/MoviesApi.js
 src/api/UsersApi.js
 src/index.js
+src/model/Allmovies.js
 src/model/Deploys.js
 src/model/Movies.js
 src/model/Users.js

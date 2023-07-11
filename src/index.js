@@ -13,9 +13,11 @@
 
 
 import ApiClient from './ApiClient';
+import Allmovies from './model/Allmovies';
 import Deploys from './model/Deploys';
 import Movies from './model/Movies';
 import Users from './model/Users';
+import AllmoviesApi from './api/AllmoviesApi';
 import DeploysApi from './api/DeploysApi';
 import MoviesApi from './api/MoviesApi';
 import UsersApi from './api/UsersApi';
@@ -60,6 +62,12 @@ export {
     ApiClient,
 
     /**
+     * The Allmovies model constructor.
+     * @property {module:model/Allmovies}
+     */
+    Allmovies,
+
+    /**
      * The Deploys model constructor.
      * @property {module:model/Deploys}
      */
@@ -76,6 +84,12 @@ export {
      * @property {module:model/Users}
      */
     Users,
+
+    /**
+    * The AllmoviesApi service constructor.
+    * @property {module:api/AllmoviesApi}
+    */
+    AllmoviesApi,
 
     /**
     * The DeploysApi service constructor.
@@ -104,6 +118,12 @@ export default {
     ApiClient,
 
     /**
+     * The Allmovies model constructor.
+     * @property {module:model/Allmovies}
+     */
+    Allmovies,
+
+    /**
      * The Deploys model constructor.
      * @property {module:model/Deploys}
      */
@@ -120,6 +140,12 @@ export default {
      * @property {module:model/Users}
      */
     Users,
+
+    /**
+    * The AllmoviesApi service constructor.
+    * @property {module:api/AllmoviesApi}
+    */
+    AllmoviesApi,
 
     /**
     * The DeploysApi service constructor.
