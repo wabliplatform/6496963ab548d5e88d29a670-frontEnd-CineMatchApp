@@ -9,9 +9,6 @@ docs/DeploysApi.md
 docs/Movies.md
 docs/MoviesApi.json
 docs/MoviesApi.md
-docs/Trendingmovies.md
-docs/TrendingmoviesApi.json
-docs/TrendingmoviesApi.md
 docs/Users.md
 docs/UsersApi.json
 docs/UsersApi.md
@@ -23,11 +20,9 @@ package.json
 src/ApiClient.js
 src/api/DeploysApi.js
 src/api/MoviesApi.js
-src/api/TrendingmoviesApi.js
 src/api/UsersApi.js
 src/index.js
 src/model/Deploys.js
 src/model/Movies.js
-src/model/Trendingmovies.js
 src/model/Users.js
 webpack.config.js
