@@ -1,6 +1,8 @@
 document.getElementById('immdi').onclick = (event) => {
     event.preventDefault();
-    {   location.href= '/AboutUsPage' ;}};window.onload = () => {
+    {   location.href= '/AboutUsPage' ;}};document.getElementById('iiyel').onclick = (event) => {
+    event.preventDefault();
+    {   location.href= '/BugReporting' ;}};window.onload = () => {
             
             const serviceData = JSON.parse(sessionStorage.getItem('serviceData'));
             const service = serviceData ? serviceData['https://api.themoviedb.org/3/trending/movie/day'] : null;

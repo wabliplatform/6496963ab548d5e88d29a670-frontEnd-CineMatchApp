@@ -1,6 +1,10 @@
-document.getElementById('iy19h').onclick = (event) => {
+document.getElementById('i0p1').onclick = (event) => {
     event.preventDefault();
-    {   location.href= '/HomePage' ;}};document.getElementById('i1y5h').onclick = (event) => {
+    {   location.href= '/HomePage' ;}};document.getElementById('iy19h').onclick = (event) => {
+    event.preventDefault();
+    {   location.href= '/HomePage' ;}};document.getElementById('iiyel').onclick = (event) => {
+    event.preventDefault();
+    {   location.href= '/BugReporting' ;}};document.getElementById('i1y5h').onclick = (event) => {
     event.preventDefault();
     { window.open('https://www.linkedin.com/in/stamatios-sellas/',"_blank", 'width=600, height=600, location=yes');}};document.getElementById('iet4vv').onclick = (event) => {
     event.preventDefault();
