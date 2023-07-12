@@ -16,10 +16,12 @@ import ApiClient from './ApiClient';
 import Allmovies from './model/Allmovies';
 import Deploys from './model/Deploys';
 import Movies from './model/Movies';
+import Shibaimages from './model/Shibaimages';
 import Users from './model/Users';
 import AllmoviesApi from './api/AllmoviesApi';
 import DeploysApi from './api/DeploysApi';
 import MoviesApi from './api/MoviesApi';
+import ShibaimagesApi from './api/ShibaimagesApi';
 import UsersApi from './api/UsersApi';
 
 
@@ -80,6 +82,12 @@ export {
     Movies,
 
     /**
+     * The Shibaimages model constructor.
+     * @property {module:model/Shibaimages}
+     */
+    Shibaimages,
+
+    /**
      * The Users model constructor.
      * @property {module:model/Users}
      */
@@ -102,6 +110,12 @@ export {
     * @property {module:api/MoviesApi}
     */
     MoviesApi,
+
+    /**
+    * The ShibaimagesApi service constructor.
+    * @property {module:api/ShibaimagesApi}
+    */
+    ShibaimagesApi,
 
     /**
     * The UsersApi service constructor.
@@ -136,6 +150,12 @@ export default {
     Movies,
 
     /**
+     * The Shibaimages model constructor.
+     * @property {module:model/Shibaimages}
+     */
+    Shibaimages,
+
+    /**
      * The Users model constructor.
      * @property {module:model/Users}
      */
@@ -158,6 +178,12 @@ export default {
     * @property {module:api/MoviesApi}
     */
     MoviesApi,
+
+    /**
+    * The ShibaimagesApi service constructor.
+    * @property {module:api/ShibaimagesApi}
+    */
+    ShibaimagesApi,
 
     /**
     * The UsersApi service constructor.

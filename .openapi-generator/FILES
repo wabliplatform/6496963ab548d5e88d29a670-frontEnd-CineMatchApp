@@ -12,6 +12,9 @@ docs/DeploysApi.md
 docs/Movies.md
 docs/MoviesApi.json
 docs/MoviesApi.md
+docs/Shibaimages.md
+docs/ShibaimagesApi.json
+docs/ShibaimagesApi.md
 docs/Users.md
 docs/UsersApi.json
 docs/UsersApi.md
@@ -24,10 +27,12 @@ src/ApiClient.js
 src/api/AllmoviesApi.js
 src/api/DeploysApi.js
 src/api/MoviesApi.js
+src/api/ShibaimagesApi.js
 src/api/UsersApi.js
 src/index.js
 src/model/Allmovies.js
 src/model/Deploys.js
 src/model/Movies.js
+src/model/Shibaimages.js
 src/model/Users.js
 webpack.config.js

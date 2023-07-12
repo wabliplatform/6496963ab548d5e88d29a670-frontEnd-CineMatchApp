@@ -50,4 +50,31 @@ document.getElementById('immdi').onclick = (event) => {
 
                 })
             )
+        
+            
+            const serviceData = JSON.parse(sessionStorage.getItem('serviceData'));
+            const service = serviceData ? serviceData['https://shibe.online/api/shibes?count=2httpsUrls=true'] : null;
+                
+                
+                
+        
+            fetch(`https://shibe.online/api/shibes?count=2httpsUrls=true?`,{
+                method: "GET", 
+
+                headers: {}
+
+                
+            })
+            .then(response => 
+                response.json().then(data => {
+                    
+            try{
+                document.getElementById('iiat3').textContent = data.0;
+            }
+            catch(e){
+                console.log(e);
+            }
+
+                })
+            )
         };
