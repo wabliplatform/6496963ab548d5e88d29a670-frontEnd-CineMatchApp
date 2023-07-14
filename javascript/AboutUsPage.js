@@ -1,6 +1,4 @@
-document.getElementById('i0p1').onclick = (event) => {
-    event.preventDefault();
-    {   location.href= '/HomePage' ;}};document.getElementById('iy19h').onclick = (event) => {
+document.getElementById('iy19h').onclick = (event) => {
     event.preventDefault();
     {   location.href= '/HomePage' ;}};document.getElementById('iiyel').onclick = (event) => {
     event.preventDefault();

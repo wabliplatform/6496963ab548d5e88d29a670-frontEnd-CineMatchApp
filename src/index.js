@@ -14,14 +14,10 @@
 
 import ApiClient from './ApiClient';
 import Allmovies from './model/Allmovies';
-import Deploys from './model/Deploys';
 import Movies from './model/Movies';
-import Shibaimages from './model/Shibaimages';
 import Users from './model/Users';
 import AllmoviesApi from './api/AllmoviesApi';
-import DeploysApi from './api/DeploysApi';
 import MoviesApi from './api/MoviesApi';
-import ShibaimagesApi from './api/ShibaimagesApi';
 import UsersApi from './api/UsersApi';
 
 
@@ -70,22 +66,10 @@ export {
     Allmovies,
 
     /**
-     * The Deploys model constructor.
-     * @property {module:model/Deploys}
-     */
-    Deploys,
-
-    /**
      * The Movies model constructor.
      * @property {module:model/Movies}
      */
     Movies,
-
-    /**
-     * The Shibaimages model constructor.
-     * @property {module:model/Shibaimages}
-     */
-    Shibaimages,
 
     /**
      * The Users model constructor.
@@ -100,22 +84,10 @@ export {
     AllmoviesApi,
 
     /**
-    * The DeploysApi service constructor.
-    * @property {module:api/DeploysApi}
-    */
-    DeploysApi,
-
-    /**
     * The MoviesApi service constructor.
     * @property {module:api/MoviesApi}
     */
     MoviesApi,
-
-    /**
-    * The ShibaimagesApi service constructor.
-    * @property {module:api/ShibaimagesApi}
-    */
-    ShibaimagesApi,
 
     /**
     * The UsersApi service constructor.
@@ -138,22 +110,10 @@ export default {
     Allmovies,
 
     /**
-     * The Deploys model constructor.
-     * @property {module:model/Deploys}
-     */
-    Deploys,
-
-    /**
      * The Movies model constructor.
      * @property {module:model/Movies}
      */
     Movies,
-
-    /**
-     * The Shibaimages model constructor.
-     * @property {module:model/Shibaimages}
-     */
-    Shibaimages,
 
     /**
      * The Users model constructor.
@@ -168,22 +128,10 @@ export default {
     AllmoviesApi,
 
     /**
-    * The DeploysApi service constructor.
-    * @property {module:api/DeploysApi}
-    */
-    DeploysApi,
-
-    /**
     * The MoviesApi service constructor.
     * @property {module:api/MoviesApi}
     */
     MoviesApi,
-
-    /**
-    * The ShibaimagesApi service constructor.
-    * @property {module:api/ShibaimagesApi}
-    */
-    ShibaimagesApi,
 
     /**
     * The UsersApi service constructor.
